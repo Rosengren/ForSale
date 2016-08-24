@@ -10,6 +10,7 @@ buildscript {
         classpath group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '1.4.0.RELEASE'
     }
 }
+
 apply plugin: 'java'
 apply plugin: 'spring-boot'
 
@@ -19,6 +20,5 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.2.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
 }
